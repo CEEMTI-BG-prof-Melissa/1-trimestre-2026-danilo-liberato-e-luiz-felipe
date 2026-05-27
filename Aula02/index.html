@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title> Controles de Formulário </title>
+</head>
+<body>
+    <form action="index.html" method="GET">
+        <h1> Preferências </h1>
+        <label for="nome"> NOME: </label>
+        <input type="text" name="nome" id="nome">
+        <br><br>
+        
+        <p> Qual turno você prefere estudar? </p>
+        <input type="radio" name="manha" id="turno">
+        <label for="turno"> Manhã </label>
+        <br>
+        <input type="radio" name="tarde" id="turno">
+        <label for="turno"> Tarde </label>
+        <br>
+        <input type="radio" id="turno" name="noite">
+        <label for="turno"> Noite </label>
+        <br><br>
+        
+        <p> Quais áreas da tecnologia você tem interesse? </p>
+        <input type="checkbox" id="tecnologia" name="programacao">
+        <label for="tecnologia"> Programação </label>
+        <br>
+        <input type="checkbox" id="tecnologia" name="desing">
+        <label for="tecnologia"> Desing </label>
+        <br>
+        <input type="checkbox" id="tecnologia" name="bd">
+        <label for="tecnologia"> Banco de Dados </label>
+        <br>
+        <input type="checkbox" id="tecnologia" name="redes">
+        <label for="tecnologia"> Redes </label>
+        <br><br>
+        
+        <label for="cor"> Qual sua cor favorita? </label>
+        <input type="color" id="cor" name="cor">
+        <br><br>
+        
+        <label for="nivel"> Qual seu nível de satisfação? </label>
+        <input type="range" id="nivel" name="nivel">
+        <br><br>
+        
+        <label for="tempo"> Qual seu horário preferido? </label>
+        <input type="time" id="tempo" name="tempo">
+        <br><br>
+        
+        <label for="arquivo"> Envie um arquivo </label>
+        <input type="file" id="arquivo" name="arquivor">
+        <br><br>
+        
+        <input type="submit" value="Cadastrar">
+        <input type="reset" value="Limpar">
+    </form>
+</body>
+</html>
