@@ -6,10 +6,15 @@
     </head>
     <body>
         <?php
-          $nome = "Danilo";
-          $idade = "16";
+          $nomed = "Danilo";
+          $idaded = "16";
           
-          echo "Meu nome é\n" .$nome . "\ne minha idade é\n" .$idade ."\nanos";
+          echo "Meu nome é " .$nomed . " e minha idade é " .$idaded ." anos\n";
+        
+          $nomel = "Luis Felipe";
+          $idadel = "16";
+          
+          echo "|Meu nome é " .$nomel . " e minha idade é " .$idadel ." anos";
         ?>
 
     </body>
